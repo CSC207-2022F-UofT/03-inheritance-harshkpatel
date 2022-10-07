@@ -32,7 +32,7 @@ public class CrossbodyBagTest {
         assertEquals(6, b.getCapacity());
     }
 
-    @Test(timeout = 50)
+    @Test(timeout = 75)
     public void TestToString() {
         assertEquals("Blue Crossbody Bag with 2 straps (0 / 4)", b.toString());
     }
